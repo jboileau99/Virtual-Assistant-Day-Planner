@@ -1,9 +1,5 @@
 # ------------------------------------------------
 #   Name: Ryan Kortbeek / Justin Boileau
-#   ID: 1535901 / 1535268
-#   CCID: rakortbe / jboileau
-#   CMPUT 274, Fall 2018
-#
 #   Project: Virtual Assistant
 #   File: displays.py
 #

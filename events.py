@@ -1,8 +1,6 @@
 # ------------------------------------------------
 #   Name: Ryan Kortbeek / Justin Boileau
-#   ID: 1535901 / 1535268
-#   CCID: rakortbe / jboileau
-#   CMPUT 274, Fall 2018
+#   Project: Virtual Assistant
 #
 #   Project: Virtual Assistant
 #   File: events.py
@@ -42,8 +40,7 @@ class event:
     def __init__(self, namestring, daymonthyear, timestring,
                  location, additionalNotes):
         self.name = aliasCheck(namestring)
-        self.weekday, self.daynum, self.month, self.monthNum,
-        self.year = decideDate(daymonthyear)
+        self.weekday, self.daynum, self.month, self.monthNum, self.year = decideDate(daymonthyear)
         self.starttime, self.endtime = decideTime(timestring)
         self.location = aliasCheck(location)
         self.additionalNotes = aliasCheck(additionalNotes)
