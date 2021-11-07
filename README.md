@@ -1,8 +1,8 @@
-Project: Virtual Assistant
+#Project: Virtual Assistant
 
 - Written by Ryan Kortbeek and Justin Boileau
 
-Included Files:
+##Included Files:
 
     - VA.py
     - displays.py
@@ -20,7 +20,7 @@ Included Files:
     - Various event files in the form MonthDayYear (ex. 1222018.txt contains the event information for December 12th, 2018), (in userevents directory)
 
 
-Acknowledgments:
+##Acknowledgments:
     - ASCII character face found online at:
       https://www.dreamstime.com/stock-photos-ascii-face-image1528033
     - Used pygame and datetime modules to implement our program
@@ -28,7 +28,7 @@ Acknowledgments:
       https://www.pygame.org/docs/
 
 
-Running Instructions:
+##Running Instructions:
 
     - Our program is meant to be running on a Ubuntu operating system through the terminal
 
@@ -67,7 +67,7 @@ Running Instructions:
     - The virtual assistant can be used again anytime by navigating to the same directory and enter "python3 VA.py" the same way as before. Previous events, alias', and the virtual assistant name will still be available assuming the files storing them have not been moved or deleted.
 
 
-Functionality:
+##Functionality:
 
     - Supported input forms:
 
@@ -103,7 +103,7 @@ Functionality:
             specified for both the start and end time values (i.e. 11:30 - 4:30 PM is taken to mean 11:30 AM - 4:30 PM)
 
 
-Notes, Assumptions, and Bugs:
+##Notes, Assumptions, and Bugs:
 
     - When the user is entering events, it is assumed that they are typing in English with basic grammatical correctness (spaces between words)
 
